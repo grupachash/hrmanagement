@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR Management", "HR Management\HR Management.csproj", "{41FFAE6E-1E19-4226-828F-9DF4F1A0704B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{7D73E9BF-366D-42F3-9402-98FD014F6FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ControllersActions", "ControllersActions", "{9ACAC222-9EB3-43B9-8ED0-9841998CCA77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{54B91B0C-B824-4C27-A529-4BAF0027C1A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RepositoryActions", "RepositoryActions", "{A91E1C44-482F-464F-A8DB-A0227D909E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
