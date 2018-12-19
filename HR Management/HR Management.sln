@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR Management", "HR Management\HR Management.csproj", "{41FFAE6E-1E19-4226-828F-9DF4F1A0704B}"
 EndProject
@@ -12,8 +12,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{54B91B0C-B824-4C27-A529-4BAF0027C1A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{A91E1C44-482F-464F-A8DB-A0227D909E89}"
+	ProjectSection(SolutionItems) = preProject
+		HR_db.cs = HR_db.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{1788970B-1591-4ECB-AE34-CEA5B15FC56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{6B892C21-1B2A-4387-9163-BC6363E7FBF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,9 +30,16 @@ Global
 		{41FFAE6E-1E19-4226-828F-9DF4F1A0704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41FFAE6E-1E19-4226-828F-9DF4F1A0704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41FFAE6E-1E19-4226-828F-9DF4F1A0704B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B892C21-1B2A-4387-9163-BC6363E7FBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B892C21-1B2A-4387-9163-BC6363E7FBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B892C21-1B2A-4387-9163-BC6363E7FBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B892C21-1B2A-4387-9163-BC6363E7FBF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B892C21-1B2A-4387-9163-BC6363E7FBF1} = {A91E1C44-482F-464F-A8DB-A0227D909E89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17640292-8466-4086-8138-66748826A046}
